@@ -1,0 +1,43 @@
+:root {
+    --primary-color: #141a6b;
+    --body-color: #b1c949;
+    --side-color: #7c4614;
+    --accent-color: #21d5db;
+
+
+}
+body {
+    background-image: url("https://images.pexels.com/photos/186980/pexels-photo-186980.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+    background-color:var(--side-color);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: black;  
+}
+
+header{
+    background-color: var(--primary-color);
+    color: black;
+}
+
+.btn-search{
+    background-color:var(--accent-color);
+    color: var(--fontcolor);    
+}
+
+.btn-history{
+    background-color: var(--body-color);
+}
+
+#current-day{
+    visibility: hidden;
+}
+
+#search-history-screen {
+    visibility: hidden;
+}
+
+#five-day-display-main{
+    visibility: hidden;
+    background-color: var(--accent-color);
+}
+
